@@ -1,0 +1,29 @@
+{
+    "compilerOptions": {
+        "target": "es5",
+        "module": "CommonJS",
+        "lib": [
+            "dom",
+            "dom.iterable",
+            "esnext"
+        ],
+        "strict": true,
+        "sourceMap": true,
+        "esModuleInterop": true,
+        "noFallthroughCasesInSwitch": true,
+        "exactOptionalPropertyTypes": true,
+        "noImplicitOverride": true,
+        "noImplicitReturns": true,
+        "noPropertyAccessFromIndexSignature": true,
+        "moduleResolution": "node",
+        "declaration": true,
+        "jsx": "react-jsx",
+        "outDir": "dist",
+    },
+    "exclude": [
+        "node_modules",
+    ],
+    "files": [
+        "index.ts",
+    ],
+}

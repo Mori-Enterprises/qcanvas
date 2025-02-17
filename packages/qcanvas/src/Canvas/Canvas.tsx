@@ -4,8 +4,6 @@ import { BaseElementData, useElementIds, type CanvasController } from './control
 import { ScrollContainer } from './ScrollContainer';
 import { Element } from './Element';
 
-const GROUP_COUNT = 10;
-
 export interface CanvasProps<T extends BaseElementData> {
     controller: CanvasController<T>;
     componentFactory: (kind: string) => React.JSX.Element | null;

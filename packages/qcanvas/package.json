@@ -1,11 +1,19 @@
 {
   "name": "@mori-enterprises/qcanvas",
   "version": "1.0.0",
+  "description": "A highly performant infinite canvas component for React",
   "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mori-Enterprises/qcanvas.git",
+    "directory": "packages/qcanvas"
+  },
   "scripts": {
     "build": "tsc",
     "watch": "tsc -w",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "publish": "npm run build && npm publish --dry-run"
   },
   "license": "MIT",
   "devDependencies": {
